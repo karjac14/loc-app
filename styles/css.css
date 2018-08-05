@@ -1,0 +1,45 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.loc-list {
+	position:absolute;
+	height: 300px !important;
+	min-height: 300px !important;
+  width:300px;
+  top:-310px;
+	overflow-y: scroll;
+	background-color: #fff;
+}
+
+.list-group-item {
+	padding: 6px;
+}
+
+.container-fluid {
+    height: 100%;
+		width: 100%;
+    position: relative;
+		padding: 0;
+}
+
+#map {
+	width: 100%;
+	height: calc(100% - 108px);
+}
+
+a {
+	cursor: pointer;
+}
+
+.fa-spin {
+	color: #4183D7;
+}
+
+.fs-attr {
+  height: 8px;
+}
